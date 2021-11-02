@@ -1,1 +1,1 @@
-# P3G-Hangman
+# Hangman
