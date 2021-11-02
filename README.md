@@ -1,1 +1,1 @@
-# HangmanFun
+# P3G-Hangman
