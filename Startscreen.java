@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;
+import java.util.*;
 
 /**
  * Write a description of class Startscreen here.
@@ -20,20 +21,28 @@ public class Startscreen extends World
         super(600, 400, 1); 
         prepare();
         
-        ArrayList<String> list = new ArrayList<String>();
+        // ArrayList<String> list = new ArrayList<String>();
         
-        try {
-            Reader.readInto(list);
-        } catch(Exception e) {
+        // try {
+            // Reader.readInto(list);
+        // } catch(Exception e) {
         
-        }
+        // }
         
         
-        for(int i = 0; i < 1; i++)
-        {
-            int n = Greenfoot.getRandomNumber(1000);
-            System.out.println(list.get(n));
-        }
+        // //scanner.nextLine();
+        // for(int i = 0; i < 1; i++)
+        // {
+            // int n = Greenfoot.getRandomNumber(1000);
+            // String s = (list.get(n));
+            // System.out.println(s);
+            // System.out.println(s.length());
+            
+        // }
+        
+            
+
+        
     }
 
     /**
