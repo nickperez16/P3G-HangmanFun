@@ -29,9 +29,10 @@ public class Startscreen extends World
         }
         
         
-        for(int i = 0; i < 10; i++)
+        for(int i = 0; i < 1; i++)
         {
-            System.out.println(list.get(i));
+            int n = Greenfoot.getRandomNumber(1000);
+            System.out.println(list.get(n));
         }
     }
 
