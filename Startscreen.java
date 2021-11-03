@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.ArrayList;
 
 /**
  * Write a description of class Startscreen here.
@@ -18,6 +19,20 @@ public class Startscreen extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         prepare();
+        
+        ArrayList<String> list = new ArrayList<String>();
+        
+        try {
+            Reader.readInto(list);
+        } catch(Exception e) {
+        
+        }
+        
+        
+        for(int i = 0; i < 10; i++)
+        {
+            System.out.println(list.get(i));
+        }
     }
 
     /**
