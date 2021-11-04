@@ -18,7 +18,7 @@ public class Startscreen extends World
     public Startscreen()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(800, 600, 1); 
         prepare();
         
         // ArrayList<String> list = new ArrayList<String>();
@@ -53,7 +53,7 @@ public class Startscreen extends World
     {
 
         TitleLetters titleLetters = new TitleLetters();
-        addObject(titleLetters,311,217);
+        addObject(titleLetters,400,300);
     }
     
     public void act()
