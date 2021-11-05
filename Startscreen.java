@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.*;
 
 /**
- * Write a description of class Startscreen here.
+ * The title page.
  * 
  * @author (your name) 
  * @version (a version number or a date)
