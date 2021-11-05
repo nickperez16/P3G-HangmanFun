@@ -3,14 +3,15 @@ import java.util.ArrayList;
 import java.util.*;
 
 /**
- * Write a description of class MyWorld here.
+ * The main world.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
 public class MyWorld extends World
 {
-
+    private int counter;
+    
     /**
      * Constructor for objects of class MyWorld.
      * 
