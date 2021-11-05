@@ -4,9 +4,6 @@ comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @autho
 comment1.params=
 comment1.target=MyWorld()
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
-<<<<<<< Updated upstream
-numComments=2
-=======
 comment2.params=
 comment2.target=void\ callWord()
 comment3.params=
@@ -24,4 +21,4 @@ comment8.target=void\ prepRLeg()
 comment9.params=
 comment9.target=void\ prepLLeg()
 numComments=10
->>>>>>> Stashed changes
+

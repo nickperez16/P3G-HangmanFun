@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class TitleLetters here.
+ * Write a description of class RightLeg here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class TitleLetters extends Actor
+public class RightLeg extends Actor
 {
     /**
-     * Act - do whatever the TitleLetters wants to do. This method is called whenever
+     * Act - do whatever the RightLeg wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
